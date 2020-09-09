@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Mr.Korea",
+    "slug": "webview",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "port": 59104
+    },
+    "ios": {
+      "bundleIdentifier": "com.mrkoreatas.mrkorea",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mrkoreatas.mrkorea",
+      "versionCode": 1
+    }
+  }
+}
